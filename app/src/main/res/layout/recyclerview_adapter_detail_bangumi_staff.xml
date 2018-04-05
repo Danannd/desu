@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/detail_staff_recyclerview_jpg"
+        android:layout_width="75dp"
+        android:scaleType="centerCrop"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/detail_staff_recyclerview_person_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>
